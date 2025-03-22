@@ -31,7 +31,7 @@ $(call inherit-product, device/realme/RMX3357/device.mk)
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 PRODUCT_DEVICE := RMX3357
-PRODUCT_NAME := 11+_RMX3357
+PRODUCT_NAME := twrp_RMX3357
 PRODUCT_BRAND := Realme
 PRODUCT_MODEL := Realme GT Neo 2T
 PRODUCT_MANUFACTURER := Realme
