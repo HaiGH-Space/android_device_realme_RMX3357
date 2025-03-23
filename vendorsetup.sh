@@ -29,7 +29,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 	# Device Information
 	export FOX_ARCH=arm64
 	export FOX_VARIANT="A12.1"
-	export TARGET_DEVICE_ALT="RMX3357"
+	export TARGET_DEVICE_ALT="RMX3357,RE5469"
 
 	# Funtions
 	export FOX_REPLACE_BUSYBOX_PS=1
@@ -39,18 +39,10 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 	export FOX_USE_BASH_SHELL=1
 	export FOX_ASH_IS_BASH=1
 	export FOX_USE_GREP_BINARY=1
+	export FOX_USE_SPECIFIC_MAGISK_ZIP=~/Magisk/Magisk-v28.1.zip
 	export FOX_USE_XZ_UTILS=1
 	export FOX_USE_NANO_EDITOR=1
 	export OF_ENABLE_LPTOOLS=1
-
-	# Display Settings
-	export OF_SCREEN_H=2340
-	export OF_STATUS_H=120
-	export OF_STATUS_INDENT_LEFT=150
-	export OF_STATUS_INDENT_RIGHT=20
-	export OF_HIDE_NOTCH=1
-	export OF_CLOCK_POS=1
-	export OF_ALLOW_DISABLE_NAVBAR=0
 
 	# Partitions Handling
 	export FOX_RECOVERY_INSTALL_PARTITION="/dev/block/by-name/recovery"
