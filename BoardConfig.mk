@@ -146,8 +146,6 @@ TARGET_USES_MKE2FS := true
 TW_EXCLUDE_TWRPAPP := true
 TW_OZIP_DECRYPT_KEY := 0000
 TW_INCLUDE_LOGICAL := oppo_product oppo_engineering common_preload
-TW_Y_OFFSET := 115
-TW_H_OFFSET := -115
 TW_NO_HAPTICS := true
 
 # Debug
