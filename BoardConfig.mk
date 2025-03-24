@@ -146,13 +146,13 @@ TARGET_USES_MKE2FS := true
 TW_EXCLUDE_TWRPAPP := true
 TW_OZIP_DECRYPT_KEY := 0000
 TW_INCLUDE_LOGICAL := oppo_product oppo_engineering common_preload
-#TW_Y_OFFSET := 115
-#TW_H_OFFSET := -115
+TW_Y_OFFSET := 115
+TW_H_OFFSET := -115
 
 # Debug
 TWRP_INCLUDE_LOGCAT := true
 TARGET_USES_LOGD := true
 
 # PBRP specific build flags
-#PB_DISABLE_DEFAULT_TREBLE_COMP := true
-#PB_TORCH_PATH := "/sys/class/flashlight"
+PB_DISABLE_DEFAULT_TREBLE_COMP := true
+PB_TORCH_PATH := "/sys/class/flashlight"
