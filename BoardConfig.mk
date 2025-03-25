@@ -51,7 +51,7 @@ TARGET_BOARD_PLATFORM := mt6893
 TARGET_OTA_ASSERT_DEVICE := RMX3357,RMX3357
 
 # Kernel
-BOARD_KERNEL_CMDLINE := bootopt=64S3,32N2,64N2
+BOARD_KERNEL_CMDLINE := bootopt=64S3,32N2,64N2 buildvariant=user
 TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/Image.gz
 TARGET_PREBUILT_DTB := $(DEVICE_PATH)/prebuilt/dtb.img
 BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilt/dtbo.img
@@ -151,7 +151,7 @@ TW_INCLUDE_LOGICAL := oppo_product oppo_engineering common_preload
 TW_NO_HAPTICS := true
 TW_USE_TOOLBOX := true
 TW_FORCE_USE_GRALLOC := true
-TW_H_OFFSET := -540
+TW_H_OFFSET := 0
 TW_Y_OFFSET := 0
 
 # Debug
