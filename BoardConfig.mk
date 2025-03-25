@@ -151,6 +151,7 @@ TW_INCLUDE_LOGICAL := oppo_product oppo_engineering common_preload
 TW_NO_HAPTICS := true
 TW_USE_TOOLBOX := true
 TW_FORCE_USE_GRALLOC := true
+TW_H_OFFSET := -540
 #TW_H_OFFSET := 0
 #TW_Y_OFFSET := 0
 
