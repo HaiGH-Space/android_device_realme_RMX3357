@@ -32,9 +32,9 @@ $(call inherit-product, vendor/twrp/config/common.mk)
 
 PRODUCT_DEVICE := RMX3357
 PRODUCT_NAME := twrp_RMX3357
-PRODUCT_BRAND := Realme
+PRODUCT_BRAND := realme
 PRODUCT_MODEL := GT Neo2T
-PRODUCT_MANUFACTURER := Realme
+PRODUCT_MANUFACTURER := realme
 
 # HACK: Set vendor patch level
 PRODUCT_PROPERTY_OVERRIDES += \
